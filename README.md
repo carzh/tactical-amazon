@@ -1,4 +1,7 @@
 # tactical-amazon
+Project created for ARTF2223 [Spring 2022]
+
+Tactical media meant to tackle the abstraction between the environmental impacts and our technological interactions.
 
 ## Project setup
 ```
