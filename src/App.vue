@@ -1,26 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HomePage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomePage
   }
 }
 </script>
 
 <style>
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-display: auto;
+	src: url('./assets/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro Black';
+	font-style: normal;
+	font-display: auto;
+	src: url('./assets/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0;
+  min-width: 960px;
+  max-width: 100%;
+  overflow-x: scroll;
 }
 </style>
