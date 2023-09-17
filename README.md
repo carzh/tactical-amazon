@@ -3,6 +3,8 @@ Project created for ARTF2223 [Spring 2022]
 
 Tactical media meant to tackle the abstraction between the environmental impacts and our technological interactions.
 
+preview [here](https://zealous-plant-0dc9ab10f.1.azurestaticapps.net/)
+
 ## Project setup
 ```
 npm install
